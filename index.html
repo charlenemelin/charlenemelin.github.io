@@ -1,0 +1,187 @@
+<html>
+	<head>
+		<title>L'axolotl</title>
+		<meta charset="utf-8">
+		<link href="css/mon_css.css" rel="stylesheet">
+		<script src="js/mon_js.js"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" 
+		rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col"></div>
+				<div class="col-6">
+					<!-- début card -->
+					<div class="card shadow-lg p-3 mb-5 bg-body rounded">
+						<div class="card-body">
+							
+							<h2 class="titre-centre fw-bolder hr-h2 hr-title">
+								<span class="hr-span">Découvrez l'Axolotl</span>
+							</h2>
+							<div class="titre-centre">
+								<button type="button" class="btn btn-primary" onclick="afficheImage()">Cliquez ici !</button>
+							</div>
+							<div id="maDivAxolotl" class="fadeout">
+								<img class="imgAxolotl cacher" src="img/axolotl.jpg" alt="Voici un Axolotl" id="monImageAxolotl">
+							</div>
+							
+							<br>
+							<h3 class="fw-bolder h-tab hr-h3 hr-title">
+								<span class="hr-span">L'Axolotl</span>
+							</h3>
+							<h4><p class="font-weight-bold fst-italic p-tab">Ambystoma Mexicanum</p></h4><br>
+							<p>
+								L'Axolotl, Ambystoma mexicanum, est une espèce
+								de salamandre neoténique faisant partie de l'ordre
+								des urodèles et de la famille des Ambystomatidae. 
+								Il fait partie des animaux ayant la capacité de passer
+								toute leur vie à l'état larvaire sans jamais se métamorphoser
+								en adulte (on parle de néoténie), et donc de se reproduire
+								à l'état larvaire (pédogenèse). Il est de ce fait très étudié. 
+								Pendant longtemps, on l'a confondu avec Ambystoma tigrinum
+								ou salamandre tigrée) dont on pensait qu'il s'agissait de la forme adulte. 
+								La salamandre tigrée n'est qu'occasionnellement néoténique, 
+								alors que l'axolotl l'est généralement dans la nature. 
+								Une autre des particularités qui ont fait la célébrité de l'axolotl
+								est sa capacité à régénérer des organes endommagés ou détruits. 
+								L'axolotl est non seulement capable de reconstituer par exemple
+								un oeil manquant, mais il peut aussi recréer certaines parties
+								de son cerveau si elles ont été détruites. Sa tolérance aux greffes
+								est également exceptionnelle. 
+							</p>
+							<h3 class="fw-bolder h-tab hr-h3 hr-title">
+								<span class="hr-span">Etymologie</span>
+							</h3><br>
+							<p>
+								Composé de "alt" signifiant eau et de "xolotl" pour monstre, ce nom 
+								provient d'une macro-langue de la famille uto-aztèque ; c'est-à-dire
+								en provenance du Mexique.
+							</p>
+							<h3 class="fw-bolder h-tab hr-h3 hr-title">
+								<span class="hr-span">Habitat</span>
+							</h3><br>
+							<p>
+								Cette espèce aquatique est
+
+							<a href="#" data-toggle="tooltip" data-placement="top"
+							title="Qui sévit constamment dans un pays, un milieu.">endémique</a>
+													
+								des environs de
+
+							<button class="openModal" data-toggle="modal" data-target="#modalXochimilco"><u>Xochimilco</u></button> 
+								dans le district fédéral au Mexique. On peut également en trouver dans
+								des "axallapascos" (des cratères volcaniques remplis d'eau).
+
+							</p>
+							<h3 class="fw-bolder h-tab hr-h3 hr-title">
+								<span class="hr-span">Description</span>
+							</h3><br>
+							<p>
+								Ces animaux peuvent présenter des variations génétiques de pigmentation. <br>
+								Les principales formes rencontrées sont : <br>
+								 
+
+									- <button class="openModal" data-toggle="modal" data-target="#modalAxolotlSauvage">
+										<u>forme commune</u>
+									</button> : gris, noir, brun parfois bleuté <br>
+									- <button class="openModal" data-toggle="modal" data-target="#modalAxolotlLeucistique">
+										<u>forme leucistique</u>
+									</button> : yeux bleu-noir, corps blanc <br>
+									- <button class="openModal" data-toggle="modal" data-target="#modalAxolotlAlbinos">
+										<u>forme albinos</u>
+									</button> : yeux rouges, peau blanche ou parfois dorée <br>
+							</p>
+							<h3 class="fw-bolder h-tab hr-h3 hr-title">
+								<span class="hr-span">Nutrition</span>
+
+							</h3><br>
+							<p>
+								Les Axolotls sont carnivores.<br> 
+								Dans son habitat naturel, l’Axolotl sauvage 
+								a une alimentation variée, composée de petits poissons, d’alevins, de larves, 
+								d'insectes, de têtards, de vers, de crevettes et d’autres petits crustacés d’eau douce.
+								Ils possèdent une denture plutôt rudimentaire, pour saisir plutôt que mordre ou déchirer. 
+								Ils avalent leurs proies.
+							</p>
+							<h3 class="fw-bolder h-tab hr-h3 hr-title">
+								<span class="hr-span">Statut</span>
+							</h3><br>
+							<p>
+								D'après le statut de conservation UICN, l'Axolotl est en danger critique d'extinction.
+							</p>
+						</div>
+					</div>
+					<!-- fin card -->
+				</div>
+				<div class="col"></div>
+			</div>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="modalXochimilco" tabindex="-1" role="dialog" aria-labelledby="modalXochimilcoLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title" id="modalXochimilcoLabel">Voici une photo de Xochimilco</h5>
+				</div>
+				<div class="modal-body">
+				<img class="imgModal" src="img/xochimilco.jpg">
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="modalAxolotlSauvage" tabindex="-1" role="dialog" aria-labelledby="modalAxolotlSauvageLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title" id="modalAxolotlSauvageLabel">Voici une photo d'un Axolotl sauvage (commun)</h5>
+				</div>
+				<div class="modal-body">
+				<img class="imgModal" src="img/axolotl_sauvage.png">
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="modalAxolotlLeucistique" tabindex="-1" role="dialog" aria-labelledby="modalAxolotlLeucistiqueLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title" id="modalAxolotlLeucistiqueLabel">Voici une photo d'un Axolotl leucistique</h5>
+				</div>
+				<div class="modal-body">
+				<img class="imgModal" src="img/axolotl_leucistique.jpg">
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="modalAxolotlAlbinos" tabindex="-1" role="dialog" aria-labelledby="modalAxolotlAlbinosLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title" id="modalAxolotlAlbinosLabel">Voici une photo d'un Axolotl albinos</h5>
+				</div>
+				<div class="modal-body">
+				<img class="imgModal" src="img/axolotl_albinos.jpg">
+				</div>
+			</div>
+			</div>
+		</div>
+
+	</body>
+</html>
+
+<script>
+	$(document).ready(function(){
+	  $('[data-toggle="tooltip"]').tooltip();   
+	});
+</script>

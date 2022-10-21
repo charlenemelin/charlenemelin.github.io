@@ -1,0 +1,121 @@
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    font-family: serif;
+}
+
+body {
+    background: url(../img/wallpaper.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.card .imgAxolotl, .imgModal {
+    width: 100%;
+    padding-top: 3%;
+}
+
+.card {
+    margin-top: 7%;
+}
+
+.imgAxolotl {
+    padding-top: 3%;
+}
+
+.titre-centre {
+    text-align: center;
+}
+
+.p-tab {
+    padding-left: 20%;
+}
+.h-tab {
+    padding-left: 5%;
+}
+
+.hr-title { 
+    width:100%;
+    border-bottom: 1px solid #000;
+    line-height:0.1em;
+    margin:10px 0 20px;
+}
+.hr-h2 {
+    padding-left: 5%;
+}
+
+.hr-h3 {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.hr-span { 
+    background:#fff;
+    padding:0 10px
+}
+
+
+.fadein, .fadeout {
+    opacity: 0;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+}
+.fadein {
+    opacity: 1;
+}
+
+.cacher {
+    display: none;
+}
+
+.openModal {
+    background:none;
+    border:none;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.inline {
+    display: inline-block;
+}
